@@ -1,0 +1,54 @@
+// Body
+body {
+    margin: 0;
+    padding: 0;
+    font-family: $body-font;
+}
+
+
+h1, h2, h3, h4, h5, h6 {
+    text-align: center;
+}
+
+h1 {
+    font-family: $title-font;
+    font-size: 4.5em;
+    margin: 0;
+}
+
+h2 {
+    font-family: $title-font;
+    font-size: 3em;
+    margin: 0;
+}
+
+h3, h4, h5, h6 {
+    font-family: $sub-title-font;
+    margin: 0;
+}
+
+.container-img {
+    width: 100%;
+}
+
+.container.with-background {
+    top: 30%;
+    position: absolute;
+    width: 100%;
+}
+
+@media (min-width: $bp-l) {
+    body {
+        font-size: 18px;
+    }
+}
+@media (min-width: $bp-m) and (max-width: ($bp-l - 1)) {
+    body {
+        font-size: 16px;
+    }
+}
+@media (min-width: $bp-s) and (max-width: ($bp-m - 1)) {
+    body {
+        font-size: 14px;
+    }
+}
