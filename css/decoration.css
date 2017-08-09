@@ -7,8 +7,8 @@
  *             Ramon Lapenta <me@ramonlapenta.com>
  *
  */
-@import url("https://fonts.googleapis.com/css?family=Amatic+SC|Pacifico");
-@import url("https://fonts.googleapis.com/css?family=Amatic+SC|Pacifico");
+@import url("https://fonts.googleapis.com/css?family=Amatic+SC|Pacifico|Open+Sans|Raleway:700,900");
+@import url("https://fonts.googleapis.com/css?family=Amatic+SC|Pacifico|Open+Sans|Raleway:700,900");
 @media (min-width: 1024px) {
   .col1, .col2, .col3, .col4, .col5, .col6, .col7, .col8, .col9, .col10, .col11, .col12 {
     float: left;
@@ -429,36 +429,46 @@
 body {
   margin: 0;
   padding: 0;
-  font-family: sans-serif; }
+  font-family: "Open Sans", sans-serif;
+  background-color: #333;
+  color: #8c8c8c; }
 
 h1, h2, h3, h4, h5, h6 {
-  text-align: center; }
+  text-align: center;
+  color: #222; }
 
 h1 {
-  font-family: "Amatic SC", cursive;
+  font-family: "Pacifico", sans-serif;
   font-size: 4.5em;
-  margin: 0; }
+  margin: 0;
+  font-weight: 400; }
 
 h2 {
   font-family: "Amatic SC", cursive;
-  font-size: 3em;
-  margin: 0; }
+  font-size: 3.5em; }
+
+h3 {
+  font-size: 2em; }
 
 h3, h4, h5, h6 {
-  font-family: "Pacifico", cursive;
+  font-family: "Amatic SC", cursive;
   margin: 0; }
 
-.container-img {
-  width: 100%; }
+.outter {
+  max-width: 1680px;
+  margin-left: auto;
+  margin-right: auto;
+  background: white; }
 
-.container.with-background {
-  top: 30%;
-  position: absolute;
+.justify {
+  text-align: justify; }
+
+.justify img {
   width: 100%; }
 
 @media (min-width: 1024px) {
   body {
-    font-size: 18px; } }
+    font-size: 16px; } }
 
 @media (min-width: 680px) and (max-width: 1023px) {
   body {
@@ -469,7 +479,65 @@ h3, h4, h5, h6 {
     font-size: 14px; } }
 
 #intro {
+  color: white;
+  background: url(../img/bg-intro.jpg);
+  background-position: 50%;
+  height: 600px;
+  height: 100vh;
+  background-size: cover !important; }
+
+#intro h1 {
+  text-shadow: 0 0 40px rgba(0, 0, 0, 0.25);
   color: white; }
 
+#intro .header-text {
+  padding-top: 260px; }
+
 #intro h3 {
-  font-size: 2em; }
+  font-size: 2.5em;
+  color: white; }
+
+.arrow {
+  text-align: center;
+  margin: 1% 0;
+  position: absolute;
+  left: 50%;
+  bottom: 5px; }
+
+.arrow a {
+  text-decoration: none;
+  color: white; }
+
+.bounce {
+  -moz-animation: bounce 2s infinite;
+  -webkit-animation: bounce 2s infinite;
+  animation: bounce 2s infinite; }
+
+@keyframes bounce {
+  0%, 20%, 50%, 80%, 100% {
+    transform: translateY(0); }
+  40% {
+    transform: translateY(-30px); }
+  60% {
+    transform: translateY(-15px); } }
+
+@media (min-width: 680px) and (max-width: 1023px) {
+  #intro {
+    background-position: 60%; }
+  #intro .header-text {
+    padding-top: 170px; } }
+
+@media (min-width: 120px) and (max-width: 679px) {
+  #intro {
+    background-position: 65%; }
+  #intro h1 {
+    font-size: 3em; }
+  #intro .header-text {
+    padding-top: 20px; } }
+
+#events .event {
+  text-align: center; }
+
+#events .event .event-icon {
+  width: 75px;
+  height: 75px; }

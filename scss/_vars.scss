@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Amatic+SC|Pacifico');
+@import url('https://fonts.googleapis.com/css?family=Amatic+SC|Pacifico|Open+Sans|Raleway:700,900');
 
 // Colours
 $highlight:                     #fa9200;
@@ -45,6 +45,6 @@ $sprite:                        '../img/sprite.png';
 $fonts:                         '../fonts/';
     
 // Typography
-$body-font:                     sans-serif;
-$title-font: 				'Amatic SC', cursive;
-$sub-title-font:                    'Pacifico', cursive;
+$body-font:                     'Open Sans', sans-serif;
+$title-font: 					'Pacifico', sans-serif;
+$sub-title-font:                'Amatic SC', cursive;
