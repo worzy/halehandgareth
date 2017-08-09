@@ -22,16 +22,20 @@ h1 {
 
 h2 {
     font-family: $sub-title-font;
-    font-size: 3.5em;
+    font-size: 4em;
 }
 
 h3 {
-    font-size: 2em;
+    font-size: 2.4em;
 }
 
 h3, h4, h5, h6 {
     font-family: $sub-title-font;
     margin: 0;
+}
+
+a {
+    color: #8c8c8c;
 }
 
 .outter {
@@ -45,7 +49,23 @@ h3, h4, h5, h6 {
     text-align: justify;
     img {
         width: 100%;
+        padding: 20px 0;
     }
+}
+
+.action-button {
+    font-family: $sub-title-font;
+    border: 3px solid white;
+    font-size: 4em;
+    padding: 5px 70px;
+    font-weight: bold;
+    text-decoration: none;
+    color: white;
+}
+
+.impact {
+    font-size: 1.5em;
+    text-align: center;
 }
 
 @media (min-width: $bp-l) {

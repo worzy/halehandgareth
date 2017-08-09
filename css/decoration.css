@@ -445,14 +445,17 @@ h1 {
 
 h2 {
   font-family: "Amatic SC", cursive;
-  font-size: 3.5em; }
+  font-size: 4em; }
 
 h3 {
-  font-size: 2em; }
+  font-size: 2.4em; }
 
 h3, h4, h5, h6 {
   font-family: "Amatic SC", cursive;
   margin: 0; }
+
+a {
+  color: #8c8c8c; }
 
 .outter {
   max-width: 1680px;
@@ -464,7 +467,21 @@ h3, h4, h5, h6 {
   text-align: justify; }
 
 .justify img {
-  width: 100%; }
+  width: 100%;
+  padding: 20px 0; }
+
+.action-button {
+  font-family: "Amatic SC", cursive;
+  border: 3px solid white;
+  font-size: 4em;
+  padding: 5px 70px;
+  font-weight: bold;
+  text-decoration: none;
+  color: white; }
+
+.impact {
+  font-size: 1.5em;
+  text-align: center; }
 
 @media (min-width: 1024px) {
   body {
@@ -491,11 +508,13 @@ h3, h4, h5, h6 {
   color: white; }
 
 #intro .header-text {
-  padding-top: 260px; }
+  padding-top: 260px;
+  text-align: center; }
 
 #intro h3 {
-  font-size: 2.5em;
-  color: white; }
+  font-size: 3em;
+  color: white;
+  margin-bottom: 40px; }
 
 .arrow {
   text-align: center;
