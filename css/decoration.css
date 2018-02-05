@@ -455,16 +455,13 @@ h3, h4, h5, h6 {
   margin: 0; }
 
 a {
-  color: #8c8c8c; }
+  color: #F3937D; }
 
 .outter {
   max-width: 1680px;
   margin-left: auto;
   margin-right: auto;
   background: white; }
-
-.justify {
-  text-align: justify; }
 
 .justify img {
   width: 100%;
@@ -560,3 +557,62 @@ a {
 #events .event .event-icon {
   width: 75px;
   height: 75px; }
+
+#outro {
+  color: white;
+  background: url(../img/bg-outro.jpg);
+  background-position: 50%;
+  height: 600px;
+  height: 100vh;
+  background-size: cover !important; }
+
+#outro h2 {
+  text-shadow: 0 0 40px rgba(0, 0, 0, 0.25);
+  color: white; }
+
+#outro .header-text {
+  padding-top: 260px;
+  text-align: center; }
+
+#outro h3 {
+  font-size: 3em;
+  color: white;
+  margin-bottom: 40px; }
+
+.arrow {
+  text-align: center;
+  margin: 1% 0;
+  position: absolute;
+  left: 50%;
+  bottom: 5px; }
+
+.arrow a {
+  text-decoration: none;
+  color: white; }
+
+.bounce {
+  -moz-animation: bounce 2s infinite;
+  -webkit-animation: bounce 2s infinite;
+  animation: bounce 2s infinite; }
+
+@keyframes bounce {
+  0%, 20%, 50%, 80%, 100% {
+    transform: translateY(0); }
+  40% {
+    transform: translateY(-30px); }
+  60% {
+    transform: translateY(-15px); } }
+
+@media (min-width: 680px) and (max-width: 1023px) {
+  #intro {
+    background-position: 60%; }
+  #intro .header-text {
+    padding-top: 170px; } }
+
+@media (min-width: 120px) and (max-width: 679px) {
+  #intro {
+    background-position: 65%; }
+  #intro h1 {
+    font-size: 3em; }
+  #intro .header-text {
+    padding-top: 20px; } }
