@@ -1,0 +1,22 @@
+// Intro section
+#events {
+    .event {
+        text-align: center;
+        .event-icon {
+            width: 75px;
+            height: 75px;
+        }
+    }
+}
+
+@media (min-width: $bp-l) {
+    
+}
+
+@media (min-width: $bp-m) and (max-width: ($bp-l - 1)) {
+
+}
+
+@media (min-width: $bp-s) and (max-width: ($bp-m - 1)) {
+
+}

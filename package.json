@@ -1,0 +1,10 @@
+{
+  "name": "halehandgareth",
+  "version": "1.0.0",
+  "main": "index.html",
+  "repository": "https://github.com/worzy/halehandgareth.git",
+  "dependencies": {
+    "gulp": "^3.9.1",
+    "gulp-sass": "^3.1.0"
+  }
+}
